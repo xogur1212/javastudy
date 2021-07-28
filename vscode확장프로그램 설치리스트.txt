@@ -1,0 +1,45 @@
+1.live server
+2.live sass compiler
+3.turbo console
+4.beautify
+     
+
+    "liveSassCompile.settings.formats":[
+       
+        // More Complex
+        {
+            "format": "compact",
+            "extensionName": ".css",
+            "savePath": "~/../css/"
+        }
+    ],
+    "liveSassCompile.settings.generateMap":false,
+   
+
+
+5. 위에 내용을 복사 붙여넣기
+관리-> 설정 ->확장 ->live sass compiler -> settings:format-> settings.json  
+
+6. post sorting 확장프로그램
+
+7. 설정-> 확장 ->postcss sorting ->setting.json
+
+    "postcssSorting.config": {
+        "order": [
+          "custom-properties",
+          "dollar-variables",
+          "declarations",
+          "at-rules",
+          "rules"
+        ],
+        "properties-order": ["content","display","width","height","overflow","float","position", "top", "right", "bottom", "left","z-index","margin","margin-top","margin-right","margin-bottom","margin-left","padding","padding-top","padding-right","padding-bottom","padding-left","font","font-family","font-size","font-style","color","text-align","text-indent","text-decoration","text-transform","line-height","letter-spacing","background","background-image","background-repeat","background-position","background-size","border","border-top","border-right","border-bottom","border-left","opacity","box-shadow","text-shadow","filter","transform","transition","animation"]
+    },
+ 
+붙여넣기
+
+8.명령 팔레트  ctrl shift p
+-> postcss 누르고 처음잇는거 엔터 하면정렬
+
+9. ctrl shift p beautify file 하면 파일 글짜 정렬
+
+10. 확장프로그램 indent-rainbow 들여쓰끼 편함
