@@ -1,4 +1,6 @@
-=
+
+create datebase lectureEvaluation;
+use lectureEvaluation
 CREATE TABLE EVALUATION (
 
   evaluationID int PRIMARY KEY AUTO_INCREMENT, #평가 번호 자동으로 증가하면서등록
